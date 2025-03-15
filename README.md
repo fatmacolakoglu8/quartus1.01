@@ -6,7 +6,7 @@ module Arbiter(
     output reg ga, gb             // ga = grant to a, gb = grant to b
 );
     // FSM states
-    localparam [1:0] state_WaitReq = 0, 
+    localparam [1:0] state_WaitReq = 0, // note
                      state_GrantA  = 1, 
                      state_GrantB  = 2;
 
